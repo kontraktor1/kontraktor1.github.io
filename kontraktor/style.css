@@ -154,6 +154,7 @@ body {
 }
 .penghuni .penghuni1 {
   display: flex;
+  justify-content: center;
 }
 .penghuni .penghuni2 {
   display: flex;
