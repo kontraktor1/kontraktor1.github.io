@@ -183,9 +183,6 @@ body {
   margin: 30px;
   padding: 120px;
 }
-.diky {
-  display: flex;
-}
 .potodiky {
   justify-content: center;
   column-gap: 2rem;
@@ -202,11 +199,12 @@ body {
   box-shadow: 0 25px 50px -12px rgba(86, 71, 219, 0.897);
 }
 .diky {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   margin: 30px;
   padding: 10px;
+  grid-template-columns: repeat(auto-fit minmax(100px.1fr));
 }
 .namadiky h1 {
   display: flex;
